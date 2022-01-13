@@ -1,0 +1,12 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.swagger: DEBUG
+
+server:
+  port: 8080
+
+app:
+  api:
+    swagger:
+      enable: true
